@@ -27,6 +27,22 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+main {
+    max-width:1000px;
+    margin:auto;
+    /*position:relative;*/
+}
+
+a:link {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration:none;
+    cursor:pointer;
+
+}
 /*////////////////////////
     2. Typography
 ////////////////////////*/
@@ -43,7 +59,11 @@ body {
     padding-top: 4px;
 }
 
-
+h3 {
+    color: #1C2B32;
+    text-align: center;
+    margin:35px;
+}
 /*////////////////////////
     3. Areas
 ////////////////////////*/
@@ -83,8 +103,20 @@ body {
 
 
 /*///////////// 3.3 Support /////////////*/
+.support-image {
+    width:100%;
+    border-radius:10px;
 
+}
 
+.support-button {
+    padding:15px;
+    border-radius:50px;
+    background-color:#1C2B32;
+    color:white;
+    padding:15px 25px;
+    margin:20px 0 20px 0;
+}
 /*///////////// 3.4 Faq /////////////*/
 
 
