@@ -103,12 +103,27 @@ h3 {
 .testimonal {
     width:100%;
     border:2px solid white;
-    height:100px;
     border-radius:10px;
     box-shadow:2px 3px 4px 4px #899CA0 ;
+    text-align:left;
+    padding:10px 20px 20px 25px;
     /*display:block;*/
 }
 
+.quote-details {
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.quote-details img {
+    width:44px;
+    height:44px;
+    border-radius: 50%;
+}
+
+.quote-details cite {
+    height:44px;
+}
 /*///////////// 3.3 Support /////////////*/
 .support-image {
     width:100%;
@@ -120,7 +135,7 @@ h3 {
     border-radius:50px;
     background-color:#1C2B32;
     color:white;
-    padding:15px 25px;
+    /*padding:15px 25px;*/
     margin:20px 0 20px 0;
 }
 /*///////////// 3.4 Faq /////////////*/
