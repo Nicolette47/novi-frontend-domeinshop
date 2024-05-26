@@ -106,7 +106,7 @@ h3 {
     border-radius:10px;
     box-shadow:2px 3px 4px 4px #899CA0 ;
     text-align:left;
-    padding:10px 20px 20px 25px;
+    padding:20px 30px;
     /*display:block;*/
 }
 
@@ -152,3 +152,11 @@ details >p {
     font-size:15px;
 }
 /*///////////// 3.5 Footer /////////////*/
+.copyright {
+    background-color:black;
+    color:white;
+    font-size:10px;
+    text-align:center;
+    padding:15px 0 ;
+
+}
