@@ -100,13 +100,19 @@ h3 {
 }
 
 /*///////////// 3.2 Testimonial /////////////*/
-
+.testimonal {
+    width:100%;
+    border:2px solid white;
+    height:100px;
+    border-radius:10px;
+    box-shadow:2px 3px 4px 4px #899CA0 ;
+    /*display:block;*/
+}
 
 /*///////////// 3.3 Support /////////////*/
 .support-image {
     width:100%;
     border-radius:10px;
-
 }
 
 .support-button {
@@ -127,7 +133,7 @@ details >p {
     color:white;
     background-color:#899CA0;
     padding:20px 15px 20px 20px;
-    border-radius:20px;
+    border-radius:10px;
     font-size:15px;
 }
 /*///////////// 3.5 Footer /////////////*/
