@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,18 +12,36 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
-
+/*grijs #899CA0   donkergroen #1C2B32*/
 
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-
+body {
+    font-family: "Poppins", sans-serif;
+}
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+.header-section h1 {
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 2px;
 
+}
+
+.header-info p {
+    font-size: 10px;
+    margin: 10px 0 20px 0;
+    padding-top: 4px;
+}
 
 
 /*////////////////////////
@@ -29,21 +49,43 @@ Table of Contents:
 ////////////////////////*/
 
 
-
 /*///////////// 3.1 Header /////////////*/
+.header-info {
+    max-width: 1000px;
+    text-align: center;
+    padding: 50px 0 250px 0;
+    margin:0;
+}
 
+.header-button {
+    color: white;
+    background-color: black;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-color: black;
+    padding: 10px;
+    margin: -10px;
+}
 
+.header-domainname-field {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding:10px;
+}
+
+.header-section {
+    background-image:url("../assets/images/mountains.jpg");
+    background-size:cover;
+    background-position:center;
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
-
 
 
 /*///////////// 3.3 Support /////////////*/
 
 
-
 /*///////////// 3.4 Faq /////////////*/
-
 
 
 /*///////////// 3.5 Footer /////////////*/
