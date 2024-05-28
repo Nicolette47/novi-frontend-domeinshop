@@ -62,7 +62,7 @@ a:hover {
 h3 {
     color: #1C2B32;
     text-align: center;
-    margin:35px;
+    margin:50px;
 }
 /*////////////////////////
     3. Areas
@@ -104,21 +104,30 @@ h3 {
     width:100%;
     border:2px solid white;
     border-radius:10px;
-    box-shadow:2px 3px 4px 4px #899CA0 ;
+    box-shadow:2px 3px 4px 4px #899CA0;
     text-align:left;
-    padding:20px 30px;
-    /*display:block;*/
+    padding:20px 70px;
+    position:relative;
+}
+
+
+.quote-icon {
+    position:absolute;
+    top:10px;
+    left:29px;
 }
 
 .quote-details {
     display:inline-block;
-    vertical-align: middle;
+    margin-top:10px;
+
 }
 
 .quote-details img {
     width:44px;
     height:44px;
     border-radius: 50%;
+    vertical-align: middle;
 }
 
 .quote-details cite {
@@ -158,5 +167,5 @@ details >p {
     font-size:10px;
     text-align:center;
     padding:15px 0 ;
-
+    margin: 20px 0 0 0;
 }
